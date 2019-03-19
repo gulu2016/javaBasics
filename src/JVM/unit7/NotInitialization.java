@@ -15,6 +15,8 @@ import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
  * @Version: 1.0
  *
  */
+
+//超类
 class SuperClass{
     static {
         System.out.println("superclass init");
