@@ -1,4 +1,4 @@
-package HeadFirstDesignPatterns.ObserverPattern;
+package HeadFirstDesignPatterns.ObserverPattern.implementWithCode;
 
 /**
  * @ProjectName: leetCodePro

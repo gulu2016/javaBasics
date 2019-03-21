@@ -1,0 +1,9 @@
+implementWithCode包下
+    1.观察ObserverPattern的类图
+    2.观察者接口只有行为
+    3.主题拥有观察者接口，将其作为成员（有一个电话本列表）
+    4.观察者实现类拥有主题接口，将其作为成员（向电话本列表上注册，直接上是和主题接口连接，间接和主题实现类连接）
+    5.主题实现类只是实现主题接口
+implementWithJavaUtil包下
+    1.工具包已经实现了Observable接口（主题）和Observer（观察者）
+    2.与implementWithCode包下不同的是，观察者在主题调用update之后，会拉取需要的数据，而不是全部数据
