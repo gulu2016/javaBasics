@@ -1,10 +1,12 @@
 package HeadFirstDesignPatterns.FactoryPattern.stores;
 
-import HeadFirstDesignPatterns.AbstractFactoryPattern.AbstractPizza.Pizza;
+
+
 import HeadFirstDesignPatterns.FactoryPattern.NYPizzas.NYPizzaVeggiePizza;
 import HeadFirstDesignPatterns.FactoryPattern.NYPizzas.NYStuleCheesePizza;
 import HeadFirstDesignPatterns.FactoryPattern.NYPizzas.NYStyleClamPizza;
 import HeadFirstDesignPatterns.FactoryPattern.NYPizzas.NYStylePepperoniPizza;
+import HeadFirstDesignPatterns.FactoryPattern.Pizza;
 import HeadFirstDesignPatterns.FactoryPattern.PizzaStore;
 
 /**
@@ -21,7 +23,7 @@ import HeadFirstDesignPatterns.FactoryPattern.PizzaStore;
  */
 public class NYPizzaStore extends PizzaStore {
     @Override
-    protected Pizza createPizza(String type) {
+    public Pizza createPizza(String type) {
         if(type.equals("cheese")){
             return new NYStuleCheesePizza();
         }else if(type.equals("veggie")){

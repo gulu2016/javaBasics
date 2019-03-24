@@ -3,10 +3,10 @@ package HeadFirstDesignPatterns.AbstractFactoryPattern;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.AbstractPizza.Pizza;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.AbstractPizzaFactory.PizzaIngredientFactory;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteFactory.ChicagoPizzaIngredientFactory;
-import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteFactory.NYPizzaIngredientFactory;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcretePizza.CheesePizza;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcretePizza.ClamPizza;
-import HeadFirstDesignPatterns.FactoryPattern.PizzaStore;
+
+
 
 /**
  * @ProjectName: leetCodePro
@@ -22,7 +22,7 @@ import HeadFirstDesignPatterns.FactoryPattern.PizzaStore;
  */
 public class ChicagoPizzaStore extends PizzaStore {
     @Override
-    protected Pizza createPizza(String type) {
+    public Pizza createPizza(String type) {
         Pizza pizza = null;
         PizzaIngredientFactory ingredientFactory = new
                 ChicagoPizzaIngredientFactory();

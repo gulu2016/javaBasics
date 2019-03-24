@@ -6,7 +6,7 @@ import HeadFirstDesignPatterns.AbstractFactoryPattern.AbstractPizzaFactory.Pizza
 import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteFactory.NYPizzaIngredientFactory;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcretePizza.CheesePizza;
 import HeadFirstDesignPatterns.AbstractFactoryPattern.ConcretePizza.ClamPizza;
-import HeadFirstDesignPatterns.FactoryPattern.PizzaStore;
+
 
 /**
  * @ProjectName: leetCodePro
@@ -22,7 +22,7 @@ import HeadFirstDesignPatterns.FactoryPattern.PizzaStore;
  */
 public class NYPizzaStore extends PizzaStore {
     @Override
-    protected Pizza createPizza(String type) {
+    public Pizza createPizza(String type) {
         Pizza pizza = null;
         PizzaIngredientFactory ingredientFactory = new
                 NYPizzaIngredientFactory();
