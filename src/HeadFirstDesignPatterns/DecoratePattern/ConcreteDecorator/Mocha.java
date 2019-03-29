@@ -17,7 +17,6 @@ import HeadFirstDesignPatterns.DecoratePattern.CondimentDecorator;
  * @Version: 1.0
  */
 public class Mocha extends CondimentDecorator {
-    Beverage beverage;
 
     public Mocha(Beverage beverage){
         this.beverage = beverage;

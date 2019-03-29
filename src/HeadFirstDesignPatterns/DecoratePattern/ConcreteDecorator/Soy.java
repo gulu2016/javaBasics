@@ -16,7 +16,6 @@ import HeadFirstDesignPatterns.DecoratePattern.CondimentDecorator;
  * @Version: 1.0
  */
 public class Soy extends CondimentDecorator {
-    Beverage beverage;
 
     public Soy(Beverage beverage){
         this.beverage = beverage;
