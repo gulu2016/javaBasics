@@ -1,9 +1,9 @@
-package HeadFirstDesignPatterns.AbstractFactoryPattern.AbstractPizzaFactory;
+package HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.AbstractPizzaFactory;
 
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Cheese;
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Clams;
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Dough;
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Sauce;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Cheese;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Clams;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Dough;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Sauce;
 
 /**
  * @ProjectName: leetCodePro

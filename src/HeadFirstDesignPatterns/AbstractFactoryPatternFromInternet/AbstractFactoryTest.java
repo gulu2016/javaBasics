@@ -11,6 +11,8 @@ package HeadFirstDesignPatterns.AbstractFactoryPatternFromInternet;
  * @UpdateDate: 19-3-30 下午2:10
  * @UpdateRemark: 更新说明
  * @Version: 1.0
+ *
+ * 参考博客地址：https://www.cnblogs.com/lilin0719/p/5313886.html
  */
 public class AbstractFactoryTest {
 

@@ -1,7 +1,7 @@
-package HeadFirstDesignPatterns.AbstractFactoryPattern;
+package HeadFirstDesignPatterns.AbstractFactoryPatternFromBook;
 
 
-import HeadFirstDesignPatterns.AbstractFactoryPattern.AbstractPizza.Pizza;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.AbstractPizza.Pizza;
 
 /**
  * @ProjectName: leetCodePro

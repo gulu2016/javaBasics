@@ -1,5 +1,6 @@
 package HeadFirstDesignPatterns.CommandPattern;
 
+import HeadFirstDesignPatterns.CommandPattern.ConcreteCommands.LightOffCommand;
 import HeadFirstDesignPatterns.CommandPattern.ConcreteCommands.LightOnCommand;
 
 /**
@@ -24,7 +25,7 @@ public class RemoteLoader {
         Light livingRoomLight = new Light();
 
         LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
-        LightOnCommand livingRoomLightOff = new LightOnCommand(livingRoomLight);
+        LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
 
         remoteControlWithUndo.setCommand(0,livingRoomLightOn,livingRoomLightOff);
 

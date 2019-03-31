@@ -36,7 +36,7 @@ public class RemoteControlWithUndo {
 
     public void setCommand(int slot,Command onCommand,Command offCommand){
         onCommands[slot] = onCommand;
-        onCommands[slot] = offCommand;
+        offCommands[slot] = offCommand;
     }
 
     public void onButtonWasPushed(int slot){

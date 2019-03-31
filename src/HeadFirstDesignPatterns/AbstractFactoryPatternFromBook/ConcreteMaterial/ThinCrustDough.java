@@ -1,11 +1,11 @@
-package HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteMaterial;
+package HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.ConcreteMaterial;
 
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Sauce;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Dough;
 
 /**
  * @ProjectName: leetCodePro
  * @Package: HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteMaterial
- * @ClassName: MarinaraSauce
+ * @ClassName: ThinCrustDough
  * @Description: java类作用描述
  * @Author: gulu
  * @CreateDate: 19-3-23 下午3:01
@@ -14,5 +14,5 @@ import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Sauce;
  * @UpdateRemark: 更新说明
  * @Version: 1.0
  */
-public class MarinaraSauce implements Sauce {
+public class ThinCrustDough implements Dough {
 }

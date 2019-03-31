@@ -17,6 +17,8 @@ import HeadFirstDesignPatterns.ObserverPattern.implementWithJavaUtil.WeatherData
 public class Waitress {
     PancakeHouseMenu pancakeHouseMenu;
     DinerMenu dinerMenu;
+    Iterator pancakeIterator;
+    Iterator dinerIterator;
 
     public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
@@ -24,8 +26,8 @@ public class Waitress {
     }
 
     public void printMenu(){
-        Iterator pancakeIterator = pancakeHouseMenu.createIterator();
-        Iterator dinerIterator = dinerMenu.createIterator();
+        pancakeIterator = pancakeHouseMenu.createIterator();
+        dinerIterator = dinerMenu.createIterator();
         System.out.println("MENU\n----\nBREAKFAST");
         printMenu(pancakeIterator);
         System.out.println("\nLUNCH");

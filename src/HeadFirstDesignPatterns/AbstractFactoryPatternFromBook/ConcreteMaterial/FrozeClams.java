@@ -1,6 +1,6 @@
-package HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteMaterial;
+package HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.ConcreteMaterial;
 
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Clams;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Clams;
 
 /**
  * @ProjectName: leetCodePro

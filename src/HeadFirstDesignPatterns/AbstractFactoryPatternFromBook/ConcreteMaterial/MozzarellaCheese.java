@@ -1,6 +1,6 @@
-package HeadFirstDesignPatterns.AbstractFactoryPattern.ConcreteMaterial;
+package HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.ConcreteMaterial;
 
-import HeadFirstDesignPatterns.AbstractFactoryPattern.Abstractaterial.Cheese;
+import HeadFirstDesignPatterns.AbstractFactoryPatternFromBook.Abstractaterial.Cheese;
 
 /**
  * @ProjectName: leetCodePro
